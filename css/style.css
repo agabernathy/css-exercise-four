@@ -7,7 +7,7 @@ body {
 }
 .container{
   margin: 20px auto;
-  width: 90%;
+  width: 100%;
 }
 div {
   background-color: #dadada;
@@ -18,43 +18,23 @@ div {
 }
 
 img{
-  width: 600px;
-  height: 400px;
+  width: 270px;
+  height: 200px;
 }
 
-.leftcolumn{
-  float:left;
-  width: 25% auto;
-}
 
-.rightcolumn{
-  float: right;
-  width: 25% auto;
-}
 /* code for two coloumn design*/
 @media screen and (min-width: 575px) {
   div{
     margin: 1%;
     width:48%;
   }
-  .rightcolumn{
-    width: 25%;
-  }
-  .leftcolumn{
-    width: 25%;
-  }
 }
 
 /* code for four coloumn design*/
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 990px) {
   div{
     margin: 1%;
-    width:48%;
-  }
-  .rightcolumn{
-    width: 100%;
-  }
-  .leftcolumn{
-    width: 100%;
+    width:20%;
   }
 }
